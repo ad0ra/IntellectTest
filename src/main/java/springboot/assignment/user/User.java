@@ -9,6 +9,7 @@ public class User {
 	private String lName;
 	private String email;
 	private Number pinCode;
+        @JsonFormat(pattern = "dd-MMM-yyyy")
 	private Date birthDate;
 	private boolean isActive;
 	public String getId() {
